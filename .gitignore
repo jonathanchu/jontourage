@@ -1,0 +1,5 @@
+*.pyc
+.DS_Store
+_deploy/
+files/
+_hooks/deploy_rsync.py

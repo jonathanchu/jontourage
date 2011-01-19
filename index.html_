@@ -1,0 +1,8 @@
+---
+layout: default
+---
+
+{% for post in site.posts[0:2]|reverse %}
+    {{ post.transformed }}
+    <br>
+{% endfor %}

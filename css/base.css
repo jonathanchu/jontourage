@@ -1,0 +1,237 @@
+/* `css reset - http://meyerweb.com/eric/tools/css/reset/ v1.0 | 20080212
+----------------------------------------------------------------------------------------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* `html
+----------------------------------------------------------------------------------------------------*/
+
+body {
+    background-color: #fff;
+    color: #212121;
+    font-family: 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
+    font-size: 14px;
+    background: #ebebeb url(/img/bg.png) repeat;
+    line-height: 1.25em;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #336699;
+}
+
+a:hover { text-decoration: underline; }
+
+p { margin: 6px 0; }
+
+img {
+    border: none;
+    outline: none;
+}
+
+.last { margin-right: 0 !important; }
+
+/* `headings
+----------------------------------------------------------------------------------------------------*/
+
+h1 {
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	font-size: 25px;
+	font-weight: normal;
+}
+
+h2 {
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	font-size: 23px;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	font-size: 21px;
+    font-weight: normal;
+}
+
+h4 {
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	font-size: 19px;
+	font-weight: normal;
+}
+
+h5 {
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	font-size: 17px;
+	font-weight: normal;
+}
+
+h6 {
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+/* `spacing
+----------------------------------------------------------------------------------------------------*/
+
+ol {
+	list-style: decimal;
+}
+
+ul {
+	list-style: disc;
+}
+
+li {
+	margin-left: 30px;
+}
+
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset {
+	margin-bottom: 20px;
+}
+
+/* `main layout
+----------------------------------------------------------------------------------------------------*/
+
+#header {
+    position: relative;
+    /* background-color: #1c1c1c; */
+    background: #1c1c1c url(/img/banner.png) repeat-x;
+    height: 40px;
+}
+
+#navigation {
+    position: relative;
+    width: 400px;
+    height: 40px;
+    margin: 0 auto 0 auto;
+}
+
+#navigation ul {
+    position: relative;
+    margin: 0 0 0 30px;
+    padding: 0;
+}
+
+#navigation li {
+    float: left;
+    list-style: none;
+    margin: 10px 30px 0 0
+}
+
+#navigation a {
+    color: #ccc;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#navigation a:hover {
+    color: #fff;
+}
+
+#navigation .selected {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#wrap {
+    position: relative;
+    margin: 50px auto 0 auto;
+    padding: 0;
+    width: 960px;
+}
+
+#content {
+    position: relative;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    width: 700px;
+    min-height: 500px;
+}
+
+#content p {
+    line-height: 24px;
+}
+
+#content img {
+    margin: 0 auto 0 auto;
+    text-align: center;
+    display: block;
+}
+
+.post-date {
+    text-align: right;
+    color: #336699;
+    font-style: italic;
+}
+
+#footer {
+    position: relative;
+    height: 100px;
+}
+
+
