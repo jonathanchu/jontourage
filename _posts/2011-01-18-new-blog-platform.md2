@@ -29,11 +29,4 @@ You can find out more about [Growl](https://github.com/jonathanchu/growl) by rea
 - Pages and posts are written in Markdown
 - Layouts are written in HTML and Jinja2
 
-
-i got to blog my way
-i used to write text in textmate, emacs anyway
-copy-pasta into wysiwyg editor
-
-now process is virtually the same, except its revision controlled and no annoying admin to log into,
-
-go through process with growl
+You can checkout my blog and the structure [here](https://github.com/jonathanchu/jontourage).
