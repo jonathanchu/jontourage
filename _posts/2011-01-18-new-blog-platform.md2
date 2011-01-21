@@ -16,7 +16,9 @@ Jekyll is the creation of [@mojombo](http://twitter.com/#!/mojombo), in which he
 
 In the end, I decided to go with [Growl](https://github.com/xfire/growl).  I chose Growl because it was pure Python, had support for [Jinja2](http://jinja.pocoo.org/), and was extremely lightweight with few dependencies.  I decided not to go with Jekyll, arguably the most popular static site generator currently out there, because I wasn't too fond of the templating language.  Also, I decided not to go with Hyde simply because I prefer Jinja2 over Django templates, which is utilized in Hyde.
 
-[Growl](https://github.com/xfire/growl) is written by [Rico Schiekel](http://downgra.de/) and "shamelessly stole some really cool ideas from Jekyll."  This blog is written and compiled with a slightly modified version of [Growl](https://github.com/jonathanchu/growl).  So far, I'm loving the writing process:
+[Growl](https://github.com/xfire/growl) is written by [Rico Schiekel](http://downgra.de/) and "shamelessly stole some really cool ideas from Jekyll", which is absolutely awesome in my opinion.  I think it's great that software can be created from borrowing the best parts of other pieces of software, regardless of language.
+
+This blog is written and compiled with a slightly modified version of [Growl](https://github.com/jonathanchu/growl).  So far, I'm loving the writing process:
 
 - Write the article in Emacs
 - Commit to Git repository
