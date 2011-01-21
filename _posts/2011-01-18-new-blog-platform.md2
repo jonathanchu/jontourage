@@ -57,6 +57,9 @@ As for the post content itself, it simply is a mix of YAML and Markdown.  Here's
     publish: false
     ---
 
-And the rest of the post is just Markdown!
+And the rest of the post is just Markdown!  When I'm done writing the article, I simply push to GitHub and sync up the production server using a rsync hook:
 
-You can checkout my blog and the structure in more detail [here](https://github.com/jonathanchu/jontourage).
+    :::python
+    $ growl.py --deploy jontourage
+
+And that's it!  You can checkout my blog and the structure in more detail [here](https://github.com/jonathanchu/jontourage).
