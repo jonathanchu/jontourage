@@ -1,23 +1,22 @@
 ---
 layout: post
 title: New Blog Platform
-publish: false
 ---
 
 New Blog Platform
 =================
 
-After a long blogging hiatus, I recently decided to switch over my custom Django blog to a static site generator, following the trend that [many](https://github.com/mojombo/jekyll) [others](https://github.com/lakshmivyas/hyde) have started.  What made the switch so appealing, going from a full-featured blogging engine to a simple static site generator, was that I could write my blog entries in a text editor of my choice and keep everything under version control with Git.  A simple push to the production server would serve my static pages up via Nginx, which in the end would take up far less resources and memory than a Django-powered blog application or even Wordpress.  So with that, I decided to search for a static site generator that I liked.  I did some research and narrowed my choices down to three static site generators:
+After a long blogging hiatus, I recently decided to switch over my custom Django blog to a static site generator, following the trend that [many](https://github.com/mojombo/jekyll) [others](https://github.com/lakshmivyas/hyde) have started.  What made the switch so appealing, going from a full-featured blogging engine to a simple static site generator, was that I could write my blog entries in a text editor of my choice and keep everything under version control with Git.  A simple push to the production server would serve my static pages up via Nginx, which in the end would take up far less resources and memory than a Django-powered blog application or even Wordpress.  So with that, I decided to search for a static site generator that would suit me.  I did some research and narrowed my choices down to three static site generators:
 
 - [Jekyll](https://github.com/mojombo/jekyll) (Ruby-based)
 - [Hyde](http://ringce.com/hyde) (Python-based)
 - [Growl](https://github.com/xfire/growl) (Python-based)
 
-Jekyll is the creation of [@mojombo](http://twitter.com/#!/mojombo), in which he refers to it as ["Blogging Like a Hacker"](http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html) as he so eloquently put it in his article.  He pretty much hit the nail on the head: blogging becomes a bit of a hassle when you use a complicated blogging engine like Wordpress and the likes.  [Many](https://github.com/mojombo/jekyll/wiki/sites) are using this and seem to be very happy with it.
+Jekyll is the creation of [@mojombo](http://twitter.com/#!/mojombo), in which he refers to it as ["Blogging Like a Hacker"](http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html) as he so eloquently put it in his article.  He pretty much hit the nail on the head; blogging becomes a bit of a hassle when you use a complicated blogging engine like Wordpress and the likes.  [Many](https://github.com/mojombo/jekyll/wiki/sites) are using Jekyll and seem to be very happy with it.
 
-In the end, I chose [Growl](https://github.com/xfire/growl) because it was pure Python, had support for [Jinja2](http://jinja.pocoo.org/), and was extremely lightweight with few dependencies.  I decided not to go with Jekyll, arguably the most popular static site generator currently out there, because I wasn't too fond of the templating language.  Also, I decided not to go with Hyde simply because I prefer Jinja2 over Django templates, which is utilized in Hyde.
+In the end, I decided to go with [Growl](https://github.com/xfire/growl).  I chose Growl because it was pure Python, had support for [Jinja2](http://jinja.pocoo.org/), and was extremely lightweight with few dependencies.  I decided not to go with Jekyll, arguably the most popular static site generator currently out there, because I wasn't too fond of the templating language.  Also, I decided not to go with Hyde simply because I prefer Jinja2 over Django templates, which is utilized in Hyde.
 
-[Growl](https://github.com/xfire/growl) is written by [Rico Schiekel](http://downgra.de/) and "shamelessly stole some really cool ideas from Jekyll."  This blog is writen and compiled with a slightly modified version of [Growl](https://github.com/jonathanchu/growl).  So far, I'm loving the writing process:
+[Growl](https://github.com/xfire/growl) is written by [Rico Schiekel](http://downgra.de/) and "shamelessly stole some really cool ideas from Jekyll."  This blog is written and compiled with a slightly modified version of [Growl](https://github.com/jonathanchu/growl).  So far, I'm loving the writing process:
 
 - Write the article in Emacs
 - Commit to Git repository
@@ -30,4 +29,34 @@ You can find out more about [Growl](https://github.com/jonathanchu/growl) by rea
 - Pages and posts are written in Markdown
 - Layouts are written in HTML and Jinja2
 
-You can checkout my blog and the structure [here](https://github.com/jonathanchu/jontourage).
+The basic structure of my blog looks something like this:
+
+![Jontourage Directory Structure](/img/articles/jontourage_dir_structure.png)<br>
+
+- `_hooks` contains Python scripts that extend Growl
+- `_layout` contains the basic layouts for your site
+- `_libs` contains any third party libraries you want to use
+- `_posts` contains all the posts
+- `css` and `img` contain all the stylesheets and site media, respectively
+
+All files that end with an underscore, such as `index.html_` for example, get processed by Growl as a page.  All processed pages and media assets get dumped in the `deploy` directory, which serves up your static site.
+
+Posts need to be named in the following structure:
+
+    :::python
+    2011-01-18-new-blog-platform.md2
+
+When the posts are processed by Growl, the date `2011-01-18` gets parsed and the directory structure is created - http://jontourage.com<b>/2011/01/18/new-blog-platform/</b>
+
+As for the post content itself, it simply is a mix of YAML and Markdown.  Here's an example of what a post header looks like:
+
+    :::python
+    ---
+    layout: post
+    title: New Blog Platform
+    publish: false
+    ---
+
+And the rest of the post is just Markdown!
+
+You can checkout my blog and the structure in more detail [here](https://github.com/jonathanchu/jontourage).

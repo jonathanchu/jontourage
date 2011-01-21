@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1>The list of {% for post in site.posts %}{% if loop.last %}{{ loop.length }}{% endif %}{% endfor %} articles.</h1><br>
+<h1>The list of all {% for post in site.posts %}{% if loop.last %}{{ loop.length }}{% endif %}{% endfor %} articles.</h1><br>
 
 {% for post in site.posts|reverse %}
     {{ post.date|dateFormat }} - <a href="{{ post.url }}">{{ post.title }}</a><br>
