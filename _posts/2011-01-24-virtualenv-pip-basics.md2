@@ -1,0 +1,9 @@
+---
+layout: post
+title: Virtualenv and pip Basics
+publish: false
+---
+
+When I'm doing any kind of Python development, one tool I find indispensable is [virtualenv](http://pypi.python.org/pypi/virtualenv).  Virtualenv, along with [virtualenvwrapper](http://www.doughellmann.com/projects/virtualenvwrapper/) and [pip](http://pypi.python.org/pypi/pip), make for a great way to completely isolate your development environment.
+
+When I first started out developing Django sites, I used to use [easy_install](http://packages.python.org/distribute/easy_install.html) to install all packages I needed to the system-wide `site-packages` directory.  Even when just starting out I knew this wasn't good practice, but it ensured that commonly used libraries such as `MySQL-python` was available without any extra configuration with new projects.
