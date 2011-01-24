@@ -2,4 +2,19 @@
 layout: default
 ---
 
-Please check back later.
+<div id="about">
+Hello!  My name is Jonathan Chu and this is my personal website.  I'm a 28 year old web developer currently living in New York with a passion for Python web development.  This site is intended to be a place to share the things I've learned along the way.
+
+<br><br>
+
+Here are some other places you can find me on the web:
+
+<div id="social-icons">
+    <ul>
+        <li id="flickr-icon"><a href="#">Flickr</a></li>
+        <li id="linkedin-icon"><a href="#">LinkedIn</a></li>
+        <li id="twitter-icon"><a href="#">Twitter</a></li>
+    </ul>
+</div>
+
+</div>

@@ -244,3 +244,37 @@ fieldset {
     position: relative;
     height: 100px;
 }
+
+#articles-list,
+#about {
+    line-height: 24px;
+}
+
+#social-icons {
+    position: relative;
+    width: 260px;
+    height: 55px;
+    margin: 0 auto 0 auto;
+}
+
+#social-icons a {
+    float: left;
+    padding: 50px 0 0 0;
+    margin-right: 25px;
+    height: 0px !important;
+    background: url(/img/social_media_icons.png) no-repeat;
+    text-indent: -9999px;
+}
+
+#social-icons ul {
+    list-style: none;
+}
+
+#flickr-icon a { width: 50px; background-position: 0 0; }
+#flickr-icon a:hover { background-position: 0 -50px; }
+
+#linkedin-icon a { width: 50px; background-position: -50px 0; }
+#linkedin-icon a:hover { background-position: -50px -50px; }
+
+#twitter-icon a { width: 50px; background-position: -100px 0; }
+#twitter-icon a:hover { background-position: -100px -50px; }
