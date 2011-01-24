@@ -3,9 +3,6 @@ layout: post
 title: New Blog Platform
 ---
 
-New Blog Platform
-=================
-
 After a long blogging hiatus, I recently decided to switch over my custom Django blog to a static site generator, following the trend that [many](https://github.com/mojombo/jekyll) [others](https://github.com/lakshmivyas/hyde) have started.  What made the switch so appealing, going from a full-featured blogging engine to a simple static site generator, was that I could write my blog entries in a text editor of my choice and keep everything under version control with Git.  A simple push to the production server would serve my static pages up via Nginx, which in the end would take up far less resources and memory than a Django-powered blog application or even Wordpress.  So with that, I decided to search for a static site generator that would suit me.  I did some research and narrowed my choices down to three static site generators:
 
 - [Jekyll](https://github.com/mojombo/jekyll) (Ruby-based)
