@@ -170,7 +170,6 @@ fieldset {
 
 #header {
     position: relative;
-    /* background-color: #1c1c1c; */
     background: #1c1c1c url(/img/banner.png) repeat-x;
     height: 40px;
 }
