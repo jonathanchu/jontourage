@@ -87,10 +87,31 @@ pre {
     border: 1px solid #DEDEDE;
     margin-bottom: 15px;
     padding: 10px;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
 }
 
 hr.post {
     margin: 60px 0 80px 0;
+}
+
+::-moz-selection {
+    background: #FF5E99;
+    color:#fff;
+    text-shadow: none;
+}
+
+::selection {
+    background:#FF5E99;
+    color:#fff;
+    text-shadow: none;
+}
+
+blockquote {
+    font-size: 13px;
+	font-style: italic;
+	margin: 1em 1em;
 }
 
 /* `headings
