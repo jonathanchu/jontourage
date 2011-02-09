@@ -88,7 +88,7 @@ We're going to install Python package `Yolk` as it is a useful command line util
     :::python
     $ v myvirtualenv
     (myvirtualenv) $
-    $ pip install yolk
+    (myvirtualenv) $ pip install yolk
     Downloading/unpacking yolk
       Downloading yolk-0.4.1.tar.gz (80Kb): 80Kb downloaded
       Running setup.py egg_info for package yolk
