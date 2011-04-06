@@ -125,7 +125,7 @@ When you have your requirements installed, it's always good to take a snapshot o
 And finally, you can use the `requirements.txt` file so that your environment is completely and easily replicable:
 
     :::python
-    $ pip install -E requirements.txt
+    $ pip install -r requirements.txt
 
 
 And there you have it -- you can now create and test your Python applications in completely isolated environments!
