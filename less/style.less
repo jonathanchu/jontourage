@@ -29,12 +29,19 @@ hr {
     border-bottom: 1px solid #eee;
 }
 
+.post {
+    width: 700px;
+}
+
 .post-date {
     text-align: right;
     color: #369;
     font-size: 14px;
-    a {
+    a, span {
         font-style: italic;
+    }
+    span {
+        color: @linkcolor;
     }
 }
 
@@ -48,6 +55,9 @@ h1 {
     .headerfonts;
     font-size: 25px;
     line-height: 17px;
+    span {
+        color: @linkcolor;
+    }
 }
 
 h2 {
@@ -176,13 +186,12 @@ p {
 }
 
 html, body {
-    background-color: @bgcolor;
+    background: #ebebeb url(/img/bg.png) repeat;
     height: 100%;
 }
 
 body {
     padding-top: 70px; /* 40px to make the container go all the way to the bottom of the topbar */
-    background: #ebebeb url(/img/bg.png) repeat;
     font-family: 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
 }
 
@@ -195,7 +204,6 @@ footer {
 }
 
 section {
-    padding-top: 60px;
     min-height: 500px;
 }
 

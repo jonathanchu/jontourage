@@ -361,9 +361,11 @@ blockquote p{font-style:italic;font-size:13px;}
 pre{backgroud-color:#eeeeee;}
 li{color:#404040;font-size:14px;}
 hr{margin:60px 0 80px 0;border-top:1px solid #9a9a9a;border-bottom:1px solid #eee;}
-.post-date{text-align:right;color:#369;font-size:14px;}.post-date a{font-style:italic;}
+.post{width:700px;}
+.post-date{text-align:right;color:#369;font-size:14px;}.post-date a,.post-date span{font-style:italic;}
+.post-date span{color:#336699;}
 .headerfonts{font-family:'Helvetica Neue','Helvetica','Arial',sans-serif;font-weight:normal;margin-bottom:20px;}
-h1{font-family:'Helvetica Neue','Helvetica','Arial',sans-serif;font-weight:normal;margin-bottom:20px;font-size:25px;line-height:17px;}
+h1{font-family:'Helvetica Neue','Helvetica','Arial',sans-serif;font-weight:normal;margin-bottom:20px;font-size:25px;line-height:17px;}h1 span{color:#336699;}
 h2{font-family:'Helvetica Neue','Helvetica','Arial',sans-serif;font-weight:normal;margin-bottom:20px;font-size:23px;line-height:1.25em;}
 .last{margin-right:0 !important;}
 .topbar{font-size:14px;letter-spacing:1px;}.topbar .fill{background:#1c1c1c url(/img/banner.png) repeat-x;}.topbar .fill .nav{width:400px;margin-left:170px;}.topbar .fill .nav a{text-transform:uppercase;color:#ccc;}.topbar .fill .nav a:hover{color:#fff;text-decoration:underline;}
@@ -381,10 +383,10 @@ p{font-size:14px;line-height:1.25em;}
 #twitter-icon a{width:50px;background-position:-100px 0;}
 #twitter-icon a:hover{background-position:-100px -50px;}
 #articles-list,#about{line-height:24px;font-size:14px;}
-html,body{background-color:#eeeeee;height:100%;}
-body{padding-top:70px;background:#ebebeb url(/img/bg.png) repeat;font-family:'Lucida Grande','Helvetica','Arial',sans-serif;}
+html,body{background:#ebebeb url(/img/bg.png) repeat;height:100%;}
+body{padding-top:70px;font-family:'Lucida Grande','Helvetica','Arial',sans-serif;}
 footer{position:relative;height:100px;margin:0;padding:0;border:none;}
-section{padding-top:60px;min-height:500px;}
+section{min-height:500px;}
 .container>footer p{text-align:center;}
 .container{width:700px;}
 .page-header{background-color:#f5f5f5;padding:20px 20px 10px;margin:-20px -20px 20px;}

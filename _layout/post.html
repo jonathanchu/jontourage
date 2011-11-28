@@ -3,15 +3,13 @@ layout: default
 ---
 
 <section>
-    <div class="page-header">
-        <h1>{{ post.title }}</h1>
-    </div>
+    <h1><span>{{ post.title }}</span></h1>
     <div class="row">
-        <div class="span14 post">
+        <div class="span12 post">
             {{ content }}
         </div>
         <div class="post-date">
-            -- {{ post.date|dateFormat }}
+            <span>-- {{ post.date|dateFormat }}</span>
         </div>
     </div>
 </section>
