@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Virtualenv and pip Basics
-publish: false3
 ---
 
 When doing any kind of Python development, one tool I find indispensable is [virtualenv](http://pypi.python.org/pypi/virtualenv).  Virtualenv, along with [virtualenvwrapper](http://www.doughellmann.com/projects/virtualenvwrapper/) and [pip](http://pypi.python.org/pypi/pip), make for a great way to completely isolate your development environment.

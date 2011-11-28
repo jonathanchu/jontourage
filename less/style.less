@@ -1,0 +1,234 @@
+// Import Bootstrap here so we can add in our own site-specific style
+@import "lib/bootstrap.less";
+
+@bgcolor: #eee;
+
+@linkcolor: #369;
+
+a { color: @linkcolor; }
+a:hover { color: @linkcolor; text-decoration: underline; }
+p { margin-bottom: 20px; }
+
+blockquote p {
+    font-style: italic;
+    font-size: 13px;
+}
+
+pre {
+    backgroud-color: @bgcolor;
+}
+
+li {
+    color: #404040;
+    font-size: 14px;
+}
+
+hr {
+    margin: 60px 0 80px 0;
+    border-top: 1px solid #9a9a9a;
+    border-bottom: 1px solid #eee;
+}
+
+.post-date {
+    text-align: right;
+    color: #369;
+    font-size: 14px;
+    a {
+        font-style: italic;
+    }
+}
+
+.headerfonts {
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+h1 {
+    .headerfonts;
+    font-size: 25px;
+    line-height: 17px;
+}
+
+h2 {
+    .headerfonts;
+    font-size: 23px;
+    line-height: 1.25em;
+}
+
+.last { margin-right: 0 !important; }
+
+.topbar {
+    font-size: 14px;
+    letter-spacing: 1px;
+
+    .fill {
+        background: #1C1C1C url(/img/banner.png) repeat-x;
+
+        .nav {
+            width: 400px;
+            margin-left: 170px;
+
+            a {
+                text-transform: uppercase;
+                color: #ccc;
+
+                &:hover{
+                    color: #fff;
+                    text-decoration: underline;
+                }
+            }
+
+            li {
+                margin-right: 10px;
+            }
+
+        }
+    }
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.25em;
+}
+
+.content {
+    padding: 20px;
+    margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+    min-height: 500px;
+    font-size: 14px;
+    p {
+        line-height: 24px;
+    }
+    img {
+        margin: 0 auto 0 auto;
+        text-align: center;
+        display: block;
+    }
+    code {
+        background-color: transparent;
+    }
+}
+
+#social-icons {
+    position: relative;
+    width: 260px;
+    height: 55px;
+    margin: 0 auto 0 auto;
+    a {
+        float: left;
+        padding: 50px 0 0 0;
+        margin-right: 25px;
+        height: 0px !important;
+        background: url(/img/social_media_icons.png) no-repeat;
+        text-indent: -9999px;
+    }
+    ul {
+        list-style: none;
+    }
+}
+
+#flickr-icon {
+    a {
+        width: 50px;
+        background-position: 0 0;
+    }
+    a:hover {
+        background-position: 0 -50px;
+    }
+}
+
+#linkedin-icon {
+    a {
+        width: 50px;
+        background-position: -50px 0;
+    }
+    a:hover {
+        background-position: -50px -50px;
+    }
+}
+
+#twitter-icon {
+    a {
+        width: 50px;
+        background-position: -100px 0;
+    }
+    a:hover {
+        background-position: -100px -50px;
+    }
+}
+
+.rounded-corners (@radius: 6px) {
+    -webkit-border-radius: @radius;
+       -moz-border-radius: @radius;
+            border-radius: @radius;
+}
+
+.box-shadow (@boxshadow: 0 1px 2px rgba(0,0,0,.15)) {
+    -webkit-box-shadow: @boxshadow;
+       -moz-box-shadow: @boxshadow;
+            box-shadow: @boxshadow;
+}
+
+#articles-list, #about {
+    line-height: 24px;
+    font-size: 14px;
+}
+
+html, body {
+    background-color: @bgcolor;
+    height: 100%;
+}
+
+body {
+    padding-top: 70px; /* 40px to make the container go all the way to the bottom of the topbar */
+    background: #ebebeb url(/img/bg.png) repeat;
+    font-family: 'Lucida Grande', 'Helvetica', 'Arial', sans-serif;
+}
+
+footer {
+    position: relative;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+section {
+    padding-top: 60px;
+    min-height: 500px;
+}
+
+.container > footer p {
+    text-align: center; /* center align it with the container */
+}
+
+.container {
+    width: 700px; /* downsize our container to make the content feel a bit tighter and more cohesive. NOTE: this removes two full columns from the grid, meaning you only go to 14 columns and not 16. */
+}
+
+/* Page header tweaks */
+.page-header {
+    background-color: #f5f5f5;
+    padding: 20px 20px 10px;
+    margin: -20px -20px 20px;
+}
+
+/* Styles you shouldn't keep as they are for displaying this base example only */
+.content .span10,
+.content .span4 {
+    min-height: 1000px;
+}
+
+/* Give a quick and non-cross-browser friendly divider */
+.content .span4 {
+    margin-left: 0;
+    padding-left: 19px;
+    border-left: 1px solid #eee;
+}
+
+.topbar .btn {
+    border: 0;
+}
+
+
