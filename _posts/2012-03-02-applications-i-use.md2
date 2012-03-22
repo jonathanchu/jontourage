@@ -1,0 +1,174 @@
+---
+layout: default
+title: Applications I Use
+publish: false
+---
+
+Applications I Use
+==================
+
+About two years ago, I bought my dad a MacBook Pro as a gift and having been a long-time Windows user, the transition wasn't seemless to say the least.  I wanted to write an article on the applications I use to give him an idea of what's out there.  So here it is for my dad...two years late...
+
+General
+-------
+Alfred
+
+Alfred allows you to open applications quickly with a few key strokes, in oppose to using the mouse, going to the Applications folder, double clicking the application.
+
+1password
+
+I don't know any of my passwords anymore.  You keep one password that unlocks the "vault" and it gives you access to all of your passwords.  Mine are randomly generated.  Crap, I've said too much...
+
+Dropbox
+
+For effortless syncing between machines, and helpful for sharing files, pictures, etc.
+
+Fantastical
+
+Quick entry into your calendar.  Uses natural language and parses it to extract the date, time, and title of meeting.  You can type in: "Lunch with Lydia tomorrow afternoon at 1pm" and it will create an calendar event for you correctly.
+
+Cloud App
+
+An easier way to share screenshots.  You can set it up auto-upload every time you take a screenshot and it automagically copies the sharable URL to your clipboard.
+
+Shady
+
+For when working late at night, you can turn down the brightness of your screen - even if the lowest settings aren't enough.  It has presets, so once you activate it, it will dim to your custom setting without having to fiddle with the System Preferences.
+
+Caffeine
+
+Keeps your screen from dimming.  Useful when I'm unplugged and on the go - if I don't want the screen to dim after a minute or two of inactivity, I simply turn this on.  Helpful when others are looking on at your laptop and you're discussing something.  You won't need to keep touching the touchpad every minute or two so it won't dim.  Sure, you can change this in your System Preferences, but the idea is to NOT have to keep changing it so it's not intrusive.
+
+smcFan Control
+
+A simple little app that sits in your top menu bar and tells you the internal temperature.  I like to keep an eye on this when I work - it tells me if there's an application that's eating up a lot of CPU, because the fans would turn on and the temperatures would rise.  Also lets you control the fan speed.
+
+Fluid App
+
+I use this app to make web apps seem like a native application.  For example, instead of visiting my company's Basecamp URL, I can make the web application into a (fake) standalone application.  Now, I can just launch "basecamp"in Alfred and it will open up a dedicated browser for Basecamp.
+
+Divvy
+
+I use this for quick organization of my applications and windows.  You can have presets for sizes that you like to repeat, such as half-screen, full-screen, etc.
+
+Coding
+------
+Emacs (courtesy of @gregnewman https://gist.github.com/1654889)
+
+I've been using Emacs for a few years now and the muscle memory is definitely there where I feel more productive in this than any other editor.
+
+Textmate 2
+
+I know, I know...it's more of a crutch than anything else.  I still find myself using it for viewing project tree structures and quick searching throughout the project.
+
+iTerm 2
+
+An alternative to Terminal, much more feature-rich.
+
+Charles
+
+Made its way into my daily development arsenal as of recently.  Has become extremely useful in seeing all the responses the applications I'm coding is making.
+
+Chrome and developer tools, Safari, Firefox
+
+My browsers of choice, in order.
+
+Gitx
+
+I use a fork of this and prefer it over soem of the newer git GUIs out there.
+
+SourceTree
+
+Another good one, only reason why it's on here is because it's free (for now), so go ahead and grab a copy before they start charging!  Great product.
+
+Versions
+
+I begrudgingly use this because I have one remaining project on SVN, which will soon be no more.  It makes working with SVN somewhat bearable.
+
+Sequel Pro
+
+Great GUI for MySQL databases remote and local.
+
+pgAdmin3
+
+GUI for PostgreSQL databases remote and local.  I use this in conjunction with pgphpmyadmin.
+
+Transmit
+
+(S)FTP client.
+
+
+Frontend/Design
+---------------
+Photoshop CS5
+
+Need I say more?
+
+xScope
+
+For making sure everything is pixel perfect and colors match exactly in the websites I code.  Has been an indespensible tool.
+
+Pixelmator
+
+Great alternative to Photoshop.  I'm not a designer, but sometimes when Photoshop chokes on opening a specific file, Pixelmator always seems to come through in the end.
+
+Balsamiq Mockups
+
+Great tool for quick wireframing and rapid prototyping.
+
+ImageOptim
+
+Use this to additionally compress your images and get them ready for website use to ensure everything is speedy.
+
+
+Business
+--------
+Billings
+
+This is a great app that I use daily to track my time and send invoices.  It also lets me see what payments are outstanding from each client.
+
+OmniPlan 2
+
+Great tool that I started using last year to create estimates for clients.  I mostly love any tool that Omni Group makes.
+
+Notational Velocity with Simplenote integration
+
+Great for quick note taking.  Notational Velocity lets you simply type in search terms in the top bar and it will search your notes for it.
+
+iA Writer
+
+Simple, fantastic tool for writing.  Has Markdown support!
+
+Soulver
+
+A neat little calculator that uses some natural language to give you the answer.
+
+ScanSnap
+
+I scan all my physical documents with the ScanSnap S1500M and use OCR scanning to make the entire document searchable.
+
+Social/Fun
+----------
+Adium
+
+I use Adium for instant messaging as it allows you to sign in with multiple types of accounts at once.  I know iChat is getting better, but I've been a long time user of Adium.
+
+Propane
+
+Great dedicated application for Campfire, so you don't need to use the browser to access it.  Feels more like native IM now.
+
+Textual
+
+Great GUI for IRC.  I used to just connect in my Emacs window, however it proved to be too distracting when working.
+
+Echofon
+
+My Twitter client of choice.
+
+Reeder
+
+Great Google Reader application, now with Readability support.
+
+Skitch
+
+Great to making those always funny memes...and sending work stuff to people.
