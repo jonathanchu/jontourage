@@ -1,102 +1,101 @@
 ---
 layout: default
 title: Applications I Use
-publish: false
 ---
 
-Applications I Use
-==================
-
-About two years ago, I bought my dad a MacBook Pro as a gift and having been a long-time Windows user, the transition wasn't seemless to say the least.  I wanted to write an article on the applications I use to give him an idea of what's out there.  So here it is for my dad...two years late...
+About two years ago, I bought my dad a MacBook Pro as a gift and with him being a long-time Windows user, the transition wasn't seemless to say the least.  I wanted to write an article on the applications I use to give him an idea of what's out there.  So here are some common and not-so-common applications I use on a daily basis:
 
 General
 -------
-Alfred
+[Alfred](http://www.alfredapp.com/)
 
-Alfred allows you to open applications quickly with a few key strokes, in oppose to using the mouse, going to the Applications folder, double clicking the application.
+Alfred is a handy utility app that has a lot more functionality than what I use it for.  It lets you search and open applications quickly with a few key strokes by simply typing the first few letters of the application name.
 
-1password
+[1Password](https://agilebits.com/onepassword)
 
-I don't know any of my passwords anymore.  You keep one password that unlocks the "vault" and it gives you access to all of your passwords.  Mine are randomly generated.  Crap, I've said too much...
+A password manager app.  I don't know any of my passwords anymore.  You keep one password that unlocks the "vault" and it gives you access to all of your passwords.  Mine are randomly generated.  Save your encrypted passwords file to Dropbox so you can have it on other devices (iPad, iPhone, or any other machine that can run 1Password).
 
-Dropbox
+[Dropbox](https://www.dropbox.com/)
 
-For effortless syncing between machines, and helpful for sharing files, pictures, etc.
+For effortless syncing between machines and helpful for sharing files, pictures, etc.
 
-Fantastical
+[Fantastical](http://flexibits.com/fantastical)
 
-Quick entry into your calendar.  Uses natural language and parses it to extract the date, time, and title of meeting.  You can type in: "Lunch with Lydia tomorrow afternoon at 1pm" and it will create an calendar event for you correctly.
+Quick entry of appointments in your calendar.  Uses natural language and parses it to extract the date, time, and title of meeting.  You can type in: "Lunch with Lydia tomorrow afternoon at 1pm" and it will create an calendar event for you correctly.
 
-Cloud App
+[Cloud App](http://www.getcloudapp.com/)
 
 An easier way to share screenshots.  You can set it up auto-upload every time you take a screenshot and it automagically copies the sharable URL to your clipboard.
 
-Shady
+[Shady](http://mattgemmell.com/2009/11/02/shady-for-tired-eyes/)
 
-For when working late at night, you can turn down the brightness of your screen - even if the lowest settings aren't enough.  It has presets, so once you activate it, it will dim to your custom setting without having to fiddle with the System Preferences.
+For when working late at night, you can turn down the brightness of your screen.  It has presets, so once you activate it, it will dim to your custom setting without having to fiddle with the System Preferences each time you want to dim or turn back on your brightness.
 
-Caffeine
+[Caffeine](http://itunes.apple.com/us/app/caffeine/id411246225)
 
-Keeps your screen from dimming.  Useful when I'm unplugged and on the go - if I don't want the screen to dim after a minute or two of inactivity, I simply turn this on.  Helpful when others are looking on at your laptop and you're discussing something.  You won't need to keep touching the touchpad every minute or two so it won't dim.  Sure, you can change this in your System Preferences, but the idea is to NOT have to keep changing it so it's not intrusive.
+Keeps your screen from dimming or shutting off.  Useful when I'm unplugged and on the go - if I don't want the screen to dim after a few minutes of inactivity, I simply turn this on.  Helpful when others are looking on at your laptop and you're discussing something.  You won't need to keep touching the touchpad every minute or two so it won't dim.  Sure, you can change this in your System Preferences, but the idea is to NOT have to keep modifying the presets so it's not intrusive.
 
-smcFan Control
+[smcFan Control](http://www.eidac.de/?p=207)
 
 A simple little app that sits in your top menu bar and tells you the internal temperature.  I like to keep an eye on this when I work - it tells me if there's an application that's eating up a lot of CPU, because the fans would turn on and the temperatures would rise.  Also lets you control the fan speed.
 
-Fluid App
+[Fluid App](http://fluidapp.com/)
 
-I use this app to make web apps seem like a native application.  For example, instead of visiting my company's Basecamp URL, I can make the web application into a (fake) standalone application.  Now, I can just launch "basecamp"in Alfred and it will open up a dedicated browser for Basecamp.
+I use this app to make web apps seem like a native application.  For example, instead of visiting my company's Basecamp URL, I can make the web application into a (fake) standalone application.  Now, I can just launch "basecamp" in Alfred and it will open up a dedicated browser for Basecamp.
 
-Divvy
+[Divvy](http://mizage.com/divvy/)
 
-I use this for quick organization of my applications and windows.  You can have presets for sizes that you like to repeat, such as half-screen, full-screen, etc.
+I use this for quick organization of my applications and windows.  You can have presets for sizes that you like to repeat, such as half-screen, full-screen, etc.  Useful when working with several applications, such as a browser, terminal, and emacs, and keeping a visual on them all at once.
+
+<br />
 
 Coding
 ------
-Emacs (courtesy of @gregnewman https://gist.github.com/1654889)
+Emacs
 
-I've been using Emacs for a few years now and the muscle memory is definitely there where I feel more productive in this than any other editor.
+I've been using Emacs for a few years now and the muscle memory is definitely ingrained where I feel more productive in it than almost anything else.
 
-Textmate 2
+[Textmate 2](http://macromates.com/)
 
-I know, I know...it's more of a crutch than anything else.  I still find myself using it for viewing project tree structures and quick searching throughout the project.
+Another editor that I used heavily before diving (back) into emacs.  Out of habit, it's more of a crutch than anything else.  I still find myself using it for viewing project tree structures and quick searching throughout the project.
 
-iTerm 2
+[iTerm 2](http://www.iterm2.com/)
 
 An alternative to Terminal, much more feature-rich.
 
-Charles
+[Charles](http://www.charlesproxy.com/)
 
 Made its way into my daily development arsenal as of recently.  Has become extremely useful in seeing all the responses the applications I'm coding is making.
 
-Chrome and developer tools, Safari, Firefox
+Chrome and developer tools, Firefox, Safari
 
-My browsers of choice, in order.
+My browsers of choice, in that order.
 
-Gitx
+[GitX](http://gitx.frim.nl/)
 
-I use a fork of this and prefer it over soem of the newer git GUIs out there.
+I use a [fork](http://brotherbard.com/blog/2010/03/experimental-gitx-fork/) of this and prefer it over some of the newer git GUIs out there.
 
-SourceTree
+[SourceTree](http://www.sourcetreeapp.com/)
 
 Another good one, only reason why it's on here is because it's free (for now), so go ahead and grab a copy before they start charging!  Great product.
 
-Versions
+[Versions](http://www.versionsapp.com/)
 
 I begrudgingly use this because I have one remaining project on SVN, which will soon be no more.  It makes working with SVN somewhat bearable.
 
-Sequel Pro
+[Sequel Pro](http://www.sequelpro.com/)
 
 Great GUI for MySQL databases remote and local.
 
-pgAdmin3
+[pgAdmin3](http://pgadmin.org/)
 
 GUI for PostgreSQL databases remote and local.  I use this in conjunction with pgphpmyadmin.
 
-Transmit
+[Transmit](http://www.panic.com/transmit/)
 
 (S)FTP client.
 
+<br />
 
 Frontend/Design
 ---------------
@@ -104,71 +103,77 @@ Photoshop CS5
 
 Need I say more?
 
-xScope
+[xScope](http://iconfactory.com/software/xscope)
 
-For making sure everything is pixel perfect and colors match exactly in the websites I code.  Has been an indespensible tool.
+For making sure everything is pixel perfect and colors match exactly in the websites I code.  Has been an indespensible tool throughout the years.
 
-Pixelmator
+[Pixelmator](http://www.pixelmator.com/)
 
 Great alternative to Photoshop.  I'm not a designer, but sometimes when Photoshop chokes on opening a specific file, Pixelmator always seems to come through in the end.
 
-Balsamiq Mockups
+[Balsamiq Mockups](http://www.balsamiq.com/)
 
 Great tool for quick wireframing and rapid prototyping.
 
-ImageOptim
+[ImageOptim](http://imageoptim.com/)
 
-Use this to additionally compress your images and get them ready for website use to ensure everything is speedy.
+Use this to additionally compress your images and get them ready for website use to ensure speed in loading the media assets.
 
+<br />
 
 Business
 --------
-Billings
+[Billings](http://www.marketcircle.com/billings/)
 
-This is a great app that I use daily to track my time and send invoices.  It also lets me see what payments are outstanding from each client.
+This is a great app that I use daily to track my time and send invoices.  It also lets me see what payments are outstanding from each client.  It has a handy timer in the menu bar that lets you track time at any given point with whatever you're doing.
 
-OmniPlan 2
+[OmniPlan 2](http://www.omnigroup.com/products/omniplan/)
 
 Great tool that I started using last year to create estimates for clients.  I mostly love any tool that Omni Group makes.
 
-Notational Velocity with Simplenote integration
+[Notational Velocity with Simplenote integration](http://notational.net/)
 
-Great for quick note taking.  Notational Velocity lets you simply type in search terms in the top bar and it will search your notes for it.
+Great for quick, free form note taking.  Notational Velocity lets you simply type in search terms in the top bar and it will search your notes for it.
 
-iA Writer
+[iA Writer](http://www.iawriter.com/)
 
 Simple, fantastic tool for writing.  Has Markdown support!
 
-Soulver
+[Soulver](http://itunes.apple.com/us/app/soulver/id413965349?mt=12)
 
 A neat little calculator that uses some natural language to give you the answer.
 
-ScanSnap
+ScanSnap Manager[Amazon link](http://www.amazon.com/Fujitsu-ScanSnap-Instant-Sheet-Fed-Macintosh/dp/B001XWCQO2/), since Fujitisu is more likely to change their URL than Amazon.
 
 I scan all my physical documents with the ScanSnap S1500M and use OCR scanning to make the entire document searchable.
 
+<br />
+
 Social/Fun
 ----------
-Adium
+[Adium](http://www.adium.im/)
 
-I use Adium for instant messaging as it allows you to sign in with multiple types of accounts at once.  I know iChat is getting better, but I've been a long time user of Adium.
+I use Adium for instant messaging as it allows you to sign in with multiple types of accounts at once.  I know iChat is getting better, but I've been a long time user of Adium and feels like home to me.
 
-Propane
+[Propane](http://propaneapp.com/)
 
 Great dedicated application for Campfire, so you don't need to use the browser to access it.  Feels more like native IM now.
 
-Textual
+[Textual](http://codeux.com/textual/)
 
 Great GUI for IRC.  I used to just connect in my Emacs window, however it proved to be too distracting when working.
 
-Echofon
+[Echofon](http://www.echofon.com/)
 
 My Twitter client of choice.
 
-Reeder
+[Reeder](http://reederapp.com/)
 
 Great Google Reader application, now with Readability support.
 
-Skitch
+[Skitch](http://skitch.com/)
 
 Great to making those always funny memes...and sending work stuff to people.
+
+
+Like many people in my profession, I consider myself to be a bit of a software junkie...and with good reason!  Just like with programming languages - there's always the right tool for the right job.  This was a fun little exercise to go over the tools I use on a daily basis and I hope this is helpful for some out there.  In one of next articles, I plan to write more about my development workflow and the tools I use in greater detail.
