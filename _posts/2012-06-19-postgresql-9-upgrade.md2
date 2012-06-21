@@ -44,7 +44,7 @@ You can delete the script left behind by `pg_upgrade`:
 I actually had my old Postgres instance running, so I had to stop it before restarting the new one:
 
     :::python
-    $ pg_ctl -D /usr/local/var/postgres stop -m fast
+    $ pg_ctl -D /usr/local/var/postgres9.0.1 stop -m fast
 
 Then I restarted the new Postgres instance:
 
