@@ -10,7 +10,7 @@ However, over the past year, as I found myself coding more and more in my text e
 Setting up Deft
 ---------------
 
-First, go grab [deft.el](http://jblevins.org/projects/deft/deft.el) and make sure it is available in your Emacs config (i.e. - ~/.emacs/vendor/deft.el path).  You can grab it [here](http://jblevins.org/projects/deft/deft.el) or get it directly from my [Emacs config](https://github.com/jonathanchu/emacs/blob/master/vendor/deft.el), which is the original unaltered file.
+First, go grab [deft.el](http://jblevins.org/projects/deft/deft.el) and make sure it is available in your Emacs config (i.e. - ~/.emacs/vendor/deft.el path).  You can grab it [here](http://jblevins.org/projects/deft/deft.el) or get it directly from my [Emacs config](https://github.com/jonathanchu/emacs/blob/master/vendor/deft.el), which is the original unmodified file.
 
 Once `deft.el` is on your Emacs load path, you'll need to tell Emacs to use Deft.  Put the following anywhere in your config (I like to keep `modes` separated in it's own `modes.el` file that gets loaded on initialization):
 
