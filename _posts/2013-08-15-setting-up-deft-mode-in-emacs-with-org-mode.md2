@@ -48,7 +48,7 @@ To enter the Deft buffer, simply do:
 
     m-x deft ENTER
 
-And you should see the Deft buffer like so, with all of your org-files (nothing blurred out, I got nothing to hide :P ):
+And you should see the Deft buffer like so, with all of your org-files (yes, I know - nothing is blurred out...I got nothing to hide :P ):
 
 ![Deft buffer screenshot](http://cl.ly/image/3r06392e2r3B/Screen%20Shot%202013-08-15%20at%202.42.37%20AM.png)
 
