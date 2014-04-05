@@ -4,3 +4,4 @@ _deploy/
 files/
 _hooks/deploy_rsync.py
 .direnv
+bin/
