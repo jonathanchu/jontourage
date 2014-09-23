@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/jonathanchu
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.jontourage.com
+  * I am jonathanchu (https://keybase.io/jonathanchu) on keybase.
+  * I have a public key with fingerprint A7A5 CDD6 56DA D2AA 8C2F  67B1 7CDB D1CD 26BA D36F
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.1"
+        },
+        "key": {
+            "fingerprint": "a7a5cdd656dad2aa8c2f67b17cdbd1cd26bad36f",
+            "host": "keybase.io",
+            "key_id": "7CDBD1CD26BAD36F",
+            "uid": "1d340dfd597efd1f6f5073f44f865800",
+            "username": "jonathanchu"
+        },
+        "merkle_root": {
+            "ctime": 1411485238,
+            "hash": "69bcd975e5fed5ba289e20b1dbd50d0326bc1b0fc0c5fc87ede32a165c3aebb0e04f0fbb749471637b2e7ed603810e2b0fb1c018aa153a58f75ab9c05b0872bf",
+            "seqno": 56791
+        },
+        "service": {
+            "hostname": "www.jontourage.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1411485270,
+    "expire_in": 157680000,
+    "prev": "711428a7868c7a2d7191e3011211c16d3c111e8360cc4ad1918197ef0d9432b3",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFdUn1MVWUc5iIQOBAaH1JmwFES9Hp93/N9kUj0SlTOMkikqMt5z/seOAL3XM+9
+fMmHmwwNI6Im4Vg2BcIMEWmBGzYdLP+gSEHnt9QinTliuSx1wnY7h9H6+O9939/z
+PL/f83ve5rAFfv6W6hvj3z83eFGzfHcX+WUnNG2topCGK6mUKkouVonLa55cUgmh
+UqgiUokkD7GpWrxLw8S23RM/j7FSZUT3qJrLQAGbYINUjdWEm2RFdRUQ3a2rphYl
+CRInY8xzPJYwLUmiTCu8gKAgY4ShjGkeSZjhFUOyUPN4/9OVmtN0qth4FTY41jvg
+BgfNr093MHyGUSudK0DMsAArmLMLRMFQ4RUOCIzCsorIcyIAJtBD9HlL2zWX5C2U
+XHJhqTlyCdGLiolT17Q537JXNVGQhZAVOZoRjaEkT6HB4+1IxnaBI5xCMIckWrQT
+GiBomOAABoxhQ4YIKDKQOUUWBYIJQ0uQ52RGIggBAlgFKAgJrJ0VIM8IiCYGiAeM
+CAGhDSaCMoCiJEGOkThRETgJ2WXAISAKNDLX4yE7XBqVwvGCHdaYV71MlYk5trm4
+eX/l5eU2w6NXK9WlAmKTtRKD6dY1ryZrxUa90Ot1p5jOvZXu/jkCQc55KSdSXdgI
+79/pmp3+txUBWClS4VZ14lRNBCfwxpoBMPuQMjMqA0eLkiDyoixINBagHRIGQEhD
+KEMeMzKEkIgMD2SZlbBRFaEZHsB2lqER849X3phTKjAkPWqBkVupTqiaBv9nAvws
+/n5Bgf7m9/VbGBLx958Gr0X43Tw3Lmenh3edGGwJD7WV7zq8puOScrk8cdkYSOhu
+6KmJGV244voObjnb8Wvcx1GbuztGzqRduTodlLRqfd/lx084zztXBG+2RFcfyBp9
+paLpvfClca2duyO3KW+1Ro8Eb4nsDtxnHQn7/NEHky3XD/1xe9jt2eljFhXNRgxb
+pcUHW9yVQ2N235MTuQ62Omc1H7uk3xeydOjNh7MNNUKo2P6i2pr6uMl5I+Tsbtvq
+lgLrO/Wot346l1jC1rV/ZRkYSOjz5UxH1+RQiY6tZ8OX5WU/tQncjXfGWLvhUdfi
+uICMurKfTgWDlYF1D9prfTfHO8M+m+nNC+CdB3+/k9pZdvHZNzQ0tjYi88LaoeGK
+5T2Lf8k+3H1veGalJ2NTou/r3ta4xsQcno51tlX88OVoVu2EPvt+8KH7nfnXes4c
+idGmIv88npDVoW6rr7pSdbXy3qCvZzrLOzPUsO6j1x+AqqkfF4wqk0M/196K3Hhs
+tJhKv3dhKn9RxH3eefL0A7YvJzYtbbI4+ZPGNs/bt6PWNL98flX/hytPX5pILj3Z
+fOf400knzoW+ULczsytwy6v7tGsDY6kvhWS00VtyT0V1HXuU1jqR2VnSnl+U/A2d
+s79/z62e57/N8s/NT1514NOkxsru+IV7arvahSV79we9Gz7g2qUO9XPNR8M3PjzS
+i/JO/4bbMmO2VSy5m/7FXw==
+=JWRU
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jonathanchu
+
+==================================================================
