@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-    <title>downgra.de</title>
+    <title>Jontourage</title>
     <link href="http://jontourage.com/atom.xml" rel="self"/>
     <link href="http://jontourage.com"/>
     <updated>{{ site.now|xmldatetime }}</updated>
