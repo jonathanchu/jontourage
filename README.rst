@@ -1,3 +1,5 @@
+**This is no longer being updated. My new blog is located at https://github.com/jonathanchu/jonathanchu.is**
+
 =====
 About
 =====
